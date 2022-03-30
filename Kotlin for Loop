@@ -1,0 +1,26 @@
+fun main(args: Array<String>) {
+
+    var text= "Raihan Satriya"
+
+    for (item in text.indices) {
+        println(text[item])
+    }
+}
+
+//hasil:
+R
+a
+i
+h
+a
+n
+ 
+S
+a
+t
+r
+i
+y
+a
+
+Process finished with exit code 0
