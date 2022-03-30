@@ -1,0 +1,25 @@
+fun main(args: Array<String>) {
+
+    var sum: Int = 0
+    var input: String
+
+    do {
+        print("Enter an integer: ")
+        input = readLine()!!
+        sum += input.toInt()
+
+    } while (input != "0")
+
+    println("sum = $sum")
+}
+
+//hasil:
+Enter an integer: 1
+Enter an integer: 4
+Enter an integer: 2
+Enter an integer: 3
+Enter an integer: 7
+Enter an integer: 0
+sum = 17
+
+Process finished with exit code 0
