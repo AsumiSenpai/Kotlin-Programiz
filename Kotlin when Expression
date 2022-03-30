@@ -1,0 +1,16 @@
+fun main(args: Array<String>) {
+
+    val a = 16
+    val b = 12
+
+    println("Masukkan tanda +, -, * atau /")
+    val operator = readLine()
+
+    when (operator) {
+        "+" -> println("$a + $b = ${a + b}")
+        "-" -> println("$a - $b = ${a - b}")
+        "*" -> println("$a * $b = ${a * b}")
+        "/" -> println("$a / $b = ${a / b}")
+        else -> println("$operator is invalid")
+    }
+}
